@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Switch to vim</title><link>http://switchtovimcom/</link><description>VIM </description><atom:link href="http://switchtovimcom/en/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 21 Jul 2014 21:43:12 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>movement</title><link>http://switchtovimcom/en/posts/movement.html</link><description>Tip: if you see capital letter you must press SHITF :)
+&lt;br&gt;&lt;br&gt;
+
+&lt;kbd&gt;w&lt;/kbd&gt; - next word by punctation &lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="image20" src="http://switchtovimcom/images/w.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;W&lt;/kbd&gt; - next word by spaces&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="image21" src="http://switchtovimcom/images/W.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;b&lt;/kbd&gt; - back word by punctation&lt;hr class="docutils"&gt;
+&lt;kbd&gt;B&lt;/kbd&gt; - back word by spaces&lt;hr class="docutils"&gt;
+&lt;kbd&gt;e&lt;/kbd&gt; - next word set cursor at the end word by punctation&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="image10" src="http://switchtovimcom/images/e.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;E&lt;/kbd&gt; - next word set cursor at the end word by spaces&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="image11" src="http://switchtovimcom/images/E.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;h&lt;/kbd&gt; - move left  &lt;kbd&gt;l&lt;/kbd&gt; - move right  &lt;kbd&gt;k&lt;/kbd&gt; - move up  &lt;kbd&gt;j&lt;/kbd&gt; - move down&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="image3" src="http://switchtovimcom/images/hlkj.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;:&lt;/kbd&gt;&lt;kbd&gt;3&lt;/kbd&gt;&lt;kbd&gt;8&lt;/kbd&gt;&lt;kbd&gt;Enter&lt;/kbd&gt; - go to 38th line&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="image38" src="http://switchtovimcom/images/38line.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;^&lt;/kbd&gt; - first non-blank character of line&lt;hr class="docutils"&gt;
+&lt;kbd&gt;)&lt;/kbd&gt; - zero) start of line&lt;hr class="docutils"&gt;
+&lt;kbd&gt;$&lt;/kbd&gt; - end of line&lt;hr class="docutils"&gt;
+&lt;kbd&gt;G&lt;/kbd&gt; - Go To command (prefix with number 4j moves down 4 lines.&lt;hr class="docutils"&gt;
+&lt;p&gt;Windows:&lt;/p&gt;
+&lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;kbd&gt;w&lt;/kbd&gt;&lt;kbd&gt;w&lt;/kbd&gt; - swith between windows&lt;p&gt;&lt;img alt="imagecww" src="http://switchtovimcom/images/cww.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;Ctrl &lt;/kbd&gt;&lt;kbd&gt;w &lt;/kbd&gt;&lt;kbd&gt;⇧&lt;/kbd&gt; - move cursor up a window example using ctr ww and ctr w arrows in example before switching windows ESC was pressed to enter &lt;b&gt;normal&lt;/b&gt; mode:&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="imagecwa" src="http://switchtovimcom/images/cwarrow.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;ctrl &lt;/kbd&gt;&lt;kbd&gt;w&lt;/kbd&gt;&lt;kbd&gt;+&lt;/kbd&gt; - increase size of current window&lt;p&gt;&lt;img alt="imagecwp" src="http://switchtovimcom/images/cw+.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;ctrl&lt;/kbd&gt;&lt;kbd&gt;w&lt;/kbd&gt;&lt;kbd&gt;-&lt;/kbd&gt; - decrease size of current window&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="imagecwm" src="http://switchtovimcom/images/cw-.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;ctrl&lt;/kbd&gt;&lt;kbd&gt;w&lt;/kbd&gt;&lt;kbd&gt;_&lt;/kbd&gt; - maximize current window&lt;p&gt;&lt;img alt="imagecwmax" src="http://switchtovimcom/images/cw_.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;ctrl&lt;/kbd&gt;&lt;kbd&gt;w&lt;/kbd&gt;&lt;kbd&gt;=&lt;/kbd&gt; -  make all equal size&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;img alt="imagecwe" src="http://switchtovimcom/images/cw=.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;1&lt;/kbd&gt;&lt;kbd&gt;0&lt;/kbd&gt;&lt;kbd&gt;ctrl&lt;/kbd&gt;&lt;kbd&gt;w&lt;/kbd&gt;&lt;kbd&gt;+&lt;/kbd&gt; - increase window size by 10 lines&lt;hr class="docutils"&gt;
+&lt;kbd&gt;:vsplit file&lt;/kbd&gt; - vertical split&lt;hr class="docutils"&gt;
+&lt;kbd&gt;:sview&lt;/kbd&gt; - same as split, but readonly&lt;hr class="docutils"&gt;
+&lt;kbd&gt;:hide&lt;/kbd&gt; - close current window&lt;hr class="docutils"&gt;
+&lt;kbd&gt;:only&lt;/kbd&gt; - keep only this window open&lt;p&gt;&lt;img alt="imageonly" src="http://switchtovimcom/images/only.gif"&gt;&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;kbd&gt;:ls&lt;/kbd&gt; - show current buffers&lt;hr class="docutils"&gt;
+&lt;kbd&gt;:b 2&lt;/kbd&gt; - open buffer #2 in this window&lt;hr class="docutils"&gt;</description><guid>http://switchtovimcom/en/posts/movement.html</guid><pubDate>Sat, 12 Jul 2014 20:18:32 GMT</pubDate></item></channel></rss>

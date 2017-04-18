@@ -1,0 +1,235 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="greg">
+    <title>movement | Switch to vim</title>
+    
+    
+        
+            <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+        
+    
+    
+      <link rel="canonical" href="#">
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    
+        
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+        
+    
+    
+
+    
+
+    
+
+
+
+    
+
+
+    
+    
+    <link rel="stylesheet" type="text/css" href="../css/keyboard.css">
+</head>
+<body>
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid"><!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <h2 style="display:inline;float:left;padding-top: 44px;">Switch to vim</h2>
+            <ul class="nav navbar-nav">
+                
+    
+        
+            
+                <li><a href="../../posts/movement.html">Movement</a>
+            
+        
+    
+        
+            
+                </li><li><a href="../../categories/index.html">Taags</a>
+            
+        
+    
+        
+            
+                </li><li><a href="../../rss.xml">RSS</a>
+            
+        
+    
+
+            </li></ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                
+                
+                    
+
+    <li>
+    <a href="movement.rst" id="sourcelink">Source</a>
+    </li>
+
+
+                
+            </ul>
+        </div><!-- /.navbar-header -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+    <article class="postbox post-">
+    <div class="h-entry" itemscope="itemscope" itemtype="http://schema.org/Article">
+    
+    <h1 class="p-name" itemprop="headline name">movement</h1>
+    
+
+    <hr>
+    <small>
+        Posted: <time class="published dt-published" datetime="2014-07-12T20:18:32" itemprop="datePublished">2014-07-12 20:18</time>
+        
+    
+
+        
+    
+
+    </small>
+    <hr>
+    <div class="e-content" itemprop="articleBody text">
+    Tip: if you see capital letter you must press SHITF :)
+<br><br>
+
+<kbd>w</kbd> - next word by punctation <br><br><p><img alt="image20" src="../../images/w.gif"></p>
+<hr class="docutils">
+<kbd>W</kbd> - next word by spaces<br><br><p><img alt="image21" src="../../images/W.gif"></p>
+<hr class="docutils">
+<kbd>b</kbd> - back word by punctation<hr class="docutils">
+<kbd>B</kbd> - back word by spaces<hr class="docutils">
+<kbd>e</kbd> - next word set cursor at the end word by punctation<br><br><p><img alt="image10" src="../../images/e.gif"></p>
+<hr class="docutils">
+<kbd>E</kbd> - next word set cursor at the end word by spaces<br><br><p><img alt="image11" src="../../images/E.gif"></p>
+<hr class="docutils">
+<kbd>h</kbd> - move left  <kbd>l</kbd> - move right  <kbd>k</kbd> - move up  <kbd>j</kbd> - move down<br><br><p><img alt="image3" src="../../images/hlkj.gif"></p>
+<hr class="docutils">
+<kbd>:</kbd><kbd>3</kbd><kbd>8</kbd><kbd>Enter</kbd> - go to 38th line<br><br><p><img alt="image38" src="../../images/38line.gif"></p>
+<hr class="docutils">
+<kbd>^</kbd> - first non-blank character of line<hr class="docutils">
+<kbd>)</kbd> - zero) start of line<hr class="docutils">
+<kbd>$</kbd> - end of line<hr class="docutils">
+<kbd>G</kbd> - Go To command (prefix with number 4j moves down 4 lines.<hr class="docutils">
+<p>Windows:</p>
+<kbd>Ctrl</kbd><kbd>w</kbd><kbd>w</kbd> - swith between windows<p><img alt="imagecww" src="../../images/cww.gif"></p>
+<hr class="docutils">
+<kbd>Ctrl </kbd><kbd>w </kbd><kbd>⇧</kbd> - move cursor up a window example using ctr ww and ctr w arrows in example before switching windows ESC was pressed to enter <b>normal</b> mode:<br><br><p><img alt="imagecwa" src="../../images/cwarrow.gif"></p>
+<hr class="docutils">
+<kbd>ctrl </kbd><kbd>w</kbd><kbd>+</kbd> - increase size of current window<p><img alt="imagecwp" src="../../images/cw+.gif"></p>
+<hr class="docutils">
+<kbd>ctrl</kbd><kbd>w</kbd><kbd>-</kbd> - decrease size of current window<br><br><p><img alt="imagecwm" src="../../images/cw-.gif"></p>
+<hr class="docutils">
+<kbd>ctrl</kbd><kbd>w</kbd><kbd>_</kbd> - maximize current window<p><img alt="imagecwmax" src="../../images/cw_.gif"></p>
+<hr class="docutils">
+<kbd>ctrl</kbd><kbd>w</kbd><kbd>=</kbd> -  make all equal size<br><br><p><img alt="imagecwe" src="../../images/cw=.gif"></p>
+<hr class="docutils">
+<kbd>1</kbd><kbd>0</kbd><kbd>ctrl</kbd><kbd>w</kbd><kbd>+</kbd> - increase window size by 10 lines<hr class="docutils">
+<kbd>:vsplit file</kbd> - vertical split<hr class="docutils">
+<kbd>:sview</kbd> - same as split, but readonly<hr class="docutils">
+<kbd>:hide</kbd> - close current window<hr class="docutils">
+<kbd>:only</kbd> - keep only this window open<p><img alt="imageonly" src="../../images/only.gif"></p>
+<hr class="docutils">
+<kbd>:ls</kbd> - show current buffers<hr class="docutils">
+<kbd>:b 2</kbd> - open buffer #2 in this window<hr class="docutils">
+    </div>
+    
+    </div>
+    
+    
+
+    
+        
+    
+        
+    
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+        
+            disqus_url="http://switchtovimcom/en/posts/movement.html",
+        
+        disqus_title="movement",
+        disqus_identifier="cache/posts/movement.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+    
+
+    
+    
+    
+
+    </article>
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:joe@demo.site">greg</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+        </footer>
+    </div>
+</div>
+
+
+    
+        
+            <script src="../../assets/js/all-nocdn.js" type="text/javascript"></script>
+        
+    
+
+
+    
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul><li><a class="addthis_button_facebook"></a>
+</li><li><a class="addthis_button_google_plusone_share"></a>
+</li><li><a class="addthis_button_linkedin"></a>
+</li><li><a class="addthis_button_twitter"></a>
+</li></ul>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+
+
+    <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    
+    
+
+</body>
+</html>
